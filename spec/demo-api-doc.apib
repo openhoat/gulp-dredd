@@ -1,0 +1,25 @@
+FORMAT: 1A
+
+# Gulp Dredd Demo API
+
+## Root [GET /]
+
++ Request (application/json)
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "code": "NOT_FOUND"
+            }
+
+## Hello [GET /hello]
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "hello": "world"
+            }
