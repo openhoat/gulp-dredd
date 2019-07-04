@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - dredd > async > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
+    - dredd > inquirer > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
+    - dredd > gavel > async > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
+    - dredd > dredd-transactions > fury-adapter-swagger > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
+    - dredd > dredd-transactions > fury > minim > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
+    - dredd > dredd-transactions > fury > minim > uptown > lodash:
+        patched: '2019-07-04T21:31:17.393Z'
