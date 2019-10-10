@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
-    "dredd": "^1.0.2",
+    "dredd": "^12.0.7",
     "hw-promise": "^0.0.2",
     "lodash": "^3.10.1"
   },
