@@ -20,7 +20,7 @@
     "chalk": "^1.1.1",
     "dredd": "^1.0.2",
     "hw-promise": "^0.0.2",
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "chai": "^3.4.1",
